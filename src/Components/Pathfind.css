@@ -1,0 +1,83 @@
+.rowWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 12px 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #4a90e2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .visualize-btn {
+    background-color: #4a90e2;
+  }
+  
+  .visualize-btn:hover {
+    background-color: #357ab7;
+  }
+  
+  .random-btn {
+    background-color: #50e3c2;
+  }
+  
+  .random-btn:hover {
+    background-color: #3bc6a1;
+  }
+  
+  .reset-btn {
+    background-color: #ff6f61;
+  }
+  
+  .reset-btn:hover {
+    background-color: #f14d3f;
+  }
+  
+  .maze-btn {
+    background-color: #f7a700;
+  }
+  
+  .maze-btn:hover {
+    background-color: #f28e00;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .title {
+    margin: 0px;
+    padding: 0px;
+  }
